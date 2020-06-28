@@ -3,65 +3,65 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
+        "title": "Adidas Dame 6",
         "price": 10.99,
-        "image": { "fields": { "file": { "url": "../images/product-1.jpeg" } } }
+        "image": { "fields": { "file": { "url": "../images/adidas-Dame-6.jpg" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
+        "title": "Adidas D-Rose 8",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "../images/product-2.jpeg" } } }
+        "image": { "fields": { "file": { "url": "../images/Adidas-D-Rose-8.png" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
+        "title": "Air Jordan 6",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "../images/product-3.jpeg" } } }
+        "image": { "fields": { "file": { "url": "../images/air-jordan-xi.jpg" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
-        "image": { "fields": { "file": { "url": "../images/product-4.jpeg" } } }
+        "title": "Anta Rajon Rondo RR5",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../images/ANTA-Rajon-Rondo-RR5.jpg" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
-        "image": { "fields": { "file": { "url": "../images/product-5.jpeg" } } }
+        "title": "Nike Kobe 12",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../images/img01.jpg" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
-        "image": { "fields": { "file": { "url": "../images/product-6.jpeg" } } }
+        "title": "Nike KD 12",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../images/Nike-KD12.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": { "fields": { "file": { "url": "../images/product-7.jpeg" } } }
+        "title": "Nike Kyrie 6",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../images/Nike-Kyrie-6.png" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
-        "price": 33.99,
-        "image": { "fields": { "file": { "url": "../images/product-8.jpeg" } } }
+        "title": "Under Armour Curry 6",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../images/Under-Armour-Curry-6.jpg" } } }
       }
     }
   ]

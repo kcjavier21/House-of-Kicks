@@ -13,7 +13,7 @@
 */
 
 
-  $primaryColor: #f09d51;
+  $primaryColor: rgb(255, 35, 35);
   $mainWhite: #fff;
   $mainBlack: #222;
   $mainGrey: #ececec;
@@ -32,13 +32,14 @@ body {
 }
 /* --------------- Navbar ---------------- */
 .navbar {
-  position: sticky;
+  position: fixed;
+  
   top: 0;
-   height: 60px;
+  height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
-  background: rgb(231, 226, 221);
+  background: rgba(231, 226, 221, 0.5);
   z-index: 1;
 
         .navbar-center {
@@ -52,6 +53,11 @@ body {
         
                 .nav-icon {
                 font-size: 1.5rem;
+                
+                img {
+                  height: 30px;
+                  width: 200px;
+                }
                 }
                 .cart-btn {
                 position: relative;
@@ -77,21 +83,36 @@ body {
     min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
-    justify-content: center;
+    //justify-content: center;
+    background-position: left;
+    padding: 0px;
+    margin: 0px;
+    min-width: 400px;
+    
+    
 }
 
 .banner {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    display: inline-block;
+    //text-align: center;
+    //background: rgba(255, 255, 255, 0.8);
+    //display: inline-block;
     padding: 2rem;
+    width: 50%;
+    //border-style: solid;
+    position: absolute;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 250px;
 }
 
 .banner-title {
-    font-size: 3.4rem;
-    text-transform: uppercase;
+    font-size: 2.0rem;
+    //text-transform: uppercase;
     letter-spacing: $mainSpacing;
-    margin-bottom: 3rem;
+  
+    //align-self: center;
+    color: white;
+
 }
 
 .banner-btn {
@@ -123,6 +144,10 @@ body {
 
 .products {
     padding: 4rem 0;
+    margin: 0 auto;
+    width: 95%;
+    //border-style: solid;
+    min-width: 380px;
   }
   .section-title h2 {
     text-align: center;
@@ -141,9 +166,23 @@ body {
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
   }
+
   .img-container {
     position: relative;
     overflow: hidden;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(255, 0, 0, 0.7);
+    margin: 0 auto;
+    
+
+    
+    img {
+      height: 180px;
+      width: 240px;
+      margin: 0 auto;
+      
+    }
   }
   .bag-btn {
     position: absolute;
@@ -295,3 +334,24 @@ body {
   
   /* --------------- End of Cart ---------------- */
   
+  #footer {
+    background-color:rgb(12, 12, 12);
+    bottom: 0px;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    width: 100%;
+    
+    min-width:400px;
+    
+
+    p{
+        text-align: center;
+        text-justify: center;
+        color: rgba(218, 218, 218, 1);
+        font-size: 10px;
+    
+        
+    }
+}
